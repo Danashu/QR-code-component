@@ -49,6 +49,11 @@ h3 {
 .attribution{
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
+}
+
+@media (min-width: 1440px) {
+  .card {
+    width: 375px;
+  }
 }
